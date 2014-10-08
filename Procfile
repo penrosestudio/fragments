@@ -1,0 +1,1 @@
+web: tiddlywiki . --server
