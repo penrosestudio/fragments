@@ -5,6 +5,7 @@
   "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tiddlywiki . --server",
     "postinstall": "which tiddlywiki || npm install -g tiddlywiki"
   },
   "author": "Penrose",

@@ -1,0 +1,54 @@
+created: 20141008195454769
+modified: 20141008195501383
+title: styling
+type: text/css
+tags: $:/tags/Stylesheet
+
+/* set the body font */
+html body.tc-body {
+  font-family: 'avenir next', sans-serif;
+}
+
+/* set the story river width */
+html body.tc-body .tc-story-river {
+  width: 670px;
+}
+
+/* set the fragment widths to match the story river */
+/* style the fragments */
+html body.tc-body .tc-tiddler-frame {
+  width: 586px;
+  background-color: transparent;
+  border: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* style the fragment headers */
+html body.tc-body .tc-titlebar {
+  font-weight: 600;
+  font-size: 3.35em;
+}
+
+/* hide the sidebar */
+html body.tc-body .tc-sidebar-scrollable {
+  display: none;
+}
+
+/* hide the right topbar */
+html body.tc-body .tc-topbar-right {
+  display: none;
+}
+
+/* hide the controls */
+html body.tc-body .tc-tiddler-controls .tc-reveal {
+  display: none;
+}
+/* show the edit button on hover */
+html body.tc-body .tc-tiddler-frame:hover .tc-tiddler-controls .tc-reveal:nth-of-type(4) {
+  display: inline;
+}
+/* show the controls during edit mode */
+html body.tc-body .tc-tiddler-edit-frame .tc-tiddler-controls .tc-reveal {
+  display: inline;
+}
