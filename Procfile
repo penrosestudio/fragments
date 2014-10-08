@@ -1,1 +1,1 @@
-web: tiddlywiki . --server
+web: tiddlywiki . --server $PORT
