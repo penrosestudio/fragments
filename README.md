@@ -1,6 +1,15 @@
 Fragments
 =========
 
+Running this:
+
+```
+git clone https://github.com/penrosestudio/fragments
+cd fragments
+npm install -g tiddlywiki
+tiddlywiki . --server
+```
+
 TO-DOs:
 * tiddlyserver local - DONE
 * tiddlyserver remote - DONE
