@@ -6,7 +6,7 @@ TO-DOs:
 * tiddlyserver remote - DONE
 * auth? (turns out you can set up a password when you load the app)
 * theme - DONE
-* penrose github
+* penrose github - DONE
 * persist data
 * mount on Penrose sub-domain
 
