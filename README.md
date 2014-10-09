@@ -6,8 +6,8 @@ Running this:
 ```
 git clone https://github.com/penrosestudio/fragments
 cd fragments
-npm install -g tiddlywiki
-tiddlywiki . --server
+npm install
+npm start
 ```
 
 TO-DOs:
@@ -18,6 +18,7 @@ TO-DOs:
 * penrose github - DONE
 * persist data
 * mount on Penrose sub-domain
+* better default tiddlers - loading the recently edited stuff as DefaultTiddlers?
 
 Theme TO-DOs:
 * remove monospaced editing
