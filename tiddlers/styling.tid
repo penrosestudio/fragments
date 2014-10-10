@@ -32,7 +32,7 @@ html body.tc-body .tc-titlebar {
 
 /* hide the sidebar */
 html body.tc-body .tc-sidebar-scrollable {
-  display: none;
+  /*display: none;*/
 }
 
 /* hide the right topbar */
