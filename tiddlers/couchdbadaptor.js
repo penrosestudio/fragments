@@ -15,7 +15,8 @@ A sync adaptor module for synchronising with CouchDB
 function CouchAdaptor(options) {
 	this.wiki = options.wiki;
 	this.logger = new $tw.utils.Logger("CouchAdaptor");
-	this.host = 'http://penrose.iriscouch.com';
+	//this.host = 'http://penrose.iriscouch.com'; // TODO make configurable
+	this.host = 'https://penrose.cloudant.com'; // TODO make configurable
 	this.urlPrefix = '/fragments-test'; // TODO make configurable
 	this.designDocName = '/_design/fragments-test'; // TODO make configurable
 	this.sessionUrl = '/_session';
